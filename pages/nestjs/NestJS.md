@@ -8,20 +8,20 @@ What is the nestjs structure, what plugins and decorators do we use and how do w
 
 ## Docs topics:
 
-- [Project Structure](./ProjectStructure.md)
-  - [module](./Module.md)
-  - [controllers](./Controllers.md)
-  - [services](./Services.md)
+- [Project Structure](./ProjectStructure)
+  - [module](./Module)
+  - [controllers](./Controllers)
+  - [services](./Services)
 - Documentation and maintenance
-  - [OpenAPI](./OpenAPI.md)
-  - [Logging](./Logging.md)
-  - [Sentry](./Sentry.md)
-  - [Testing](./Testing.md)
+  - [OpenAPI](./OpenAPI)
+  - [Logging](./Logging)
+  - [Sentry](./Sentry)
+  - [Testing](./Testing)
 - Database connectors
-  - [Prisma](./Prisma.md)
+  - [Prisma](./Prisma)
 - Other services
-  - [Authentication](./Authentication.md)
-  - [Card WebPay](./CardWebPay.md)
-  - [External REST API](./RestApi.md)
+  - [Authentication](./Authentication)
+  - [Card WebPay](./CardWebPay)
+  - [External REST API](./RestApi)
 - Release
-  - [Kubernetes](./Kubernetes.md)
+  - [Kubernetes](./Kubernetes)

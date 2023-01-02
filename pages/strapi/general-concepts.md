@@ -26,7 +26,7 @@ A straightforward application of the Headless CMS concept is when we have a temp
 
 Each of the Event pages contains a cover image, date, title, a rich-text field for text detail, and a few other fields. To implement this, Event is first created as a [content-type model](https://docs.strapi.io/developer-docs/latest/development/backend-customization/models.html#content-types) within our Strapi server and populated with all the fields we may require (again, refer to Strapi docs). Instances of the Event model are then pulled into our frontend app using GraphQL.
 
-For more info on GraphQL, getting the GraphQL data into React and browsing the gql queries [see the appropriate section](../graphql.md).
+For more info on GraphQL, getting the GraphQL data into React and browsing the gql queries [see the appropriate section](../graphql).
 
 In this use-case, data is always 'consumed' by the same React component(s).
 
@@ -116,4 +116,4 @@ The steps when adding a completely new entity model are roughly as follows:
 - write the GraphQL query and generate code which fetches it with GraphQL Codegen - see our GraphQL docs(TODO)
 - fetching the data in Next.js and displaying it within our frontend 'template' - see our GraphQL docs(TODO)
 
-For a more concrete example [check out the guide for adding sections to bratislava.sk](../bratislava.sk/add-new-component-to-sections.md) - note that specifics may vary slightly from project to project.
+For a more concrete example [check out the guide for adding sections to bratislava.sk](../bratislava.sk/add-new-component-to-sections) - note that specifics may vary slightly from project to project.

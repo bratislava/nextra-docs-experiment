@@ -2,7 +2,7 @@
 
 These are the steps for adding a newly designed reusable visual component to the application - both as a Strapi component usable in `Page` and `BlogPost` sections and as a React Component in next codebase.
 
-A higher level overview for this can be found in [our Strapi docs](./../strapi/general-concepts.md) or in official Strapi docs.
+A higher level overview for this can be found in [our Strapi docs](./../strapi/general-concepts) or in official Strapi docs.
 
 > ATTENTION Currently you **always** have to add the Strapi component to both `BlogPost` and `Page` sections. Otherwise you'll see an error like this: `Cannot read properties of undefined (reading 'type')` when you run `yarn gen`
 
@@ -55,10 +55,10 @@ fragment Sections on PageSectionsDynamicZone {
 }
 ```
 
-- regenerate your graphql client & types by running `yarn gen` in the `next` directory of the project - more info once again [in the graphql docs](../graphql.md)
+- regenerate your graphql client & types by running `yarn gen` in the `next` directory of the project - more info once again [in the graphql docs](../graphql)
 - your data should be available on the gql client and typed correctly
 
 # 3. Map the data from the query to a React component
 
 - add a new `case` to the `switch` clause in `Sections.tsx`, matching the `__typename` of your newly created component - typescript will understand this, and in the body of this clause you should be able to safely access all the fields of your Strapi component
-- for a better example of this, check out either the `Sections.tsx` file directly within the `bratislava.sk` repository or look into [our Strapi general concepts docs](./../strapi/general-concepts.md).
+- for a better example of this, check out either the `Sections.tsx` file directly within the `bratislava.sk` repository or look into [our Strapi general concepts docs](./../strapi/general-concepts).

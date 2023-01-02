@@ -94,7 +94,7 @@ Specifically, for APP_KEYS:
 APP_KEYS=$(openssl rand -base64 32),$(openssl rand -base64 32),$(openssl rand -base64 32),$(openssl rand -base64 32)
 ```
 
-This means the secret file will look something like this (replace the placeholder values with the openssl result _encoded once more into base64_ - more details in [secrets docs](../recipes/env-vars-and-secrets.md))):
+This means the secret file will look something like this (replace the placeholder values with the openssl result _encoded once more into base64_ - more details in [secrets docs](../recipes/env-vars-and-secrets))):
 
 ```
 apiVersion: v1
