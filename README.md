@@ -1,6 +1,6 @@
-# Nextra Docs Template 
+# Bratislava docs
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+Created from [Nextra](https://nextra.site) template.
 
 [**Live Demo →**](https://nextra-docs-template.vercel.app)
 
